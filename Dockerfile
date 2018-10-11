@@ -4,3 +4,6 @@ RUN pip install tensorflowjs
 RUN pip install jupyter
 RUN pip install bash_kernel
 RUN python -m bash_kernel.install
+RUN pip install pillow
+RUN pip install sklearn
+RUN pip install matplotlib
