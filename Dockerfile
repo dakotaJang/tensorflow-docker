@@ -7,3 +7,4 @@ RUN python -m bash_kernel.install
 RUN pip install pillow
 RUN pip install sklearn
 RUN pip install matplotlib
+RUN pip install Flask
